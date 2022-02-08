@@ -1,0 +1,79 @@
+.findcourse {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 217px;
+  .left {
+    width: 43%;
+    h2 {
+      /* Font Style/Headline/2 */
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 62px;
+
+      color: #222222;
+    }
+    p {
+      /* Font Style/Body/2 */
+        width: 80%;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      /* or 25px */
+
+      color: #555555;
+      margin: 24px 0px;
+    }
+    .bold__text {
+      /* Font Style/Body/1 */
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      /* or 140% */
+
+      color: #333333;
+    }
+    button {
+      background: #086cf9;
+      border-radius: 4px;
+      /* Font Style/Button/1 */
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+      color: #ffffff;
+      padding: 16px 32px;
+      margin-top: 32px;
+    }
+  }
+  .right {
+    width: 50%;
+    margin-right: 0;
+    position: relative;
+    img{
+        width: 100%;
+    }
+    .play{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        font-size: 44px;
+        color: #086CF9;
+    }
+  }
+}
