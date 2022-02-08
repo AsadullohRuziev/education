@@ -1,0 +1,70 @@
+.work {
+  margin: 128px 0;
+  h1 {
+    text-align: center;
+    font-family: DM Sans;
+  }
+  h6 {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    /* Font Style/Body/2 */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+/* or 25px */
+margin-top: 12px;
+text-align: center;
+
+color: #555555;
+  }
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+
+    .content__text {
+        
+      width: 25%;
+      img {
+        display: flex;
+        justify-content: center;
+        margin-left: 40%;
+      }
+      h3 {
+        text-align: center;
+        /* Font Style/Tittle/1 */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 31px;
+        margin-top: 23px;
+        color: #222222;
+      }
+      p {
+        text-align: center;
+        /* Font Style/Body/3 */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 155%;
+        /* or 22px */
+
+        text-align: center;
+
+        color: #555555;
+        margin-top: 16px;
+      }
+    }
+  }
+}

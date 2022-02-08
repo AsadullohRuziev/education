@@ -3,6 +3,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import FindCourse from './container/FindCourse/FindCourse';
+import Work from './container/Work/Work';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Header/>
       <FindCourse/>
+      <Work/>
       <Footer/>
     </div>
   );
