@@ -1,5 +1,6 @@
 import React from "react";
-import "./Header.css";
+import data from "../../utils/data";
+import "./Header.scss";
 
 const Header = () => {
   return (
@@ -12,7 +13,32 @@ const Header = () => {
           massa. Ultrices bibendum sagittis pellentesque vitae sit.
         </p>
       </div>
-      <button className="btn">Start a coures</button>
+      <div className="btn__div">
+        <button className="btn">Start a coures</button>
+      </div>
+      <div className="header__context">
+        <div className="header__icons">
+            <img src={data.courses} alt="icon" />
+            <div className="numbers">
+                <img src={data.img1400} alt="icon" />
+                <p>Online courses</p>
+            </div>
+        </div>
+        <div className="header__icons">
+            <img src={data.expert} alt="icon" />
+            <div className="numbers">
+            <img src={data.img1100} alt="icon" />
+                <p>Expert Instructors</p>
+            </div>
+        </div>
+        <div className="header__icons">
+            <img src={data.succes} alt="icon" />
+            <div className="numbers">
+            <img src={data.img800} alt="icon" />
+                <p>Success Stories</p>
+            </div>
+        </div>
+      </div>
     </div>
   );
 };
