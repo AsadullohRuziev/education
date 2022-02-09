@@ -1,0 +1,44 @@
+.courses {
+  width: 100%;
+  background-color: #ecf4ff;
+  .courses__head {
+    width: 80%;
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+      /* Font Style/Headline/2 */
+      padding-top: 60px;
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 62px;
+
+      color: #000000;
+    }
+    p {
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+      /* Font Style/Body/2 */
+      padding-top: 12px;
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 155%;
+      /* or 25px */
+
+      text-align: center;
+
+      color: #555555;
+      padding-bottom: 48px;
+    }
+  }
+  .cards{
+      width: 80%;
+      margin: 0 auto;
+  }
+}

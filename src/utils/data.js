@@ -7,9 +7,11 @@ import img800 from "../assets/icons/800+.svg";
 import findcourse from "../assets/images/findcourse.png";
 import play from "../assets/icons/play .svg";
 import online from "../assets/icons/online-learning 1.svg";
-import notes from '../assets/icons/notes 1.svg';
-import touch from '../assets/icons/choices 1.svg';
-import settings from '../assets/icons/technical-support 1.svg'
+import notes from "../assets/icons/notes 1.svg";
+import touch from "../assets/icons/choices 1.svg";
+import settings from "../assets/icons/technical-support 1.svg";
+import card from "../assets/images/card1.png";
+import doira from "../assets/images/card1-circle.png";
 
 export default {
   courses,
@@ -23,5 +25,7 @@ export default {
   online,
   notes,
   touch,
-  settings
+  settings,
+  card,
+  doira,
 };
