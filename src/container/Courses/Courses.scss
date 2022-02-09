@@ -1,6 +1,7 @@
 .courses {
   width: 100%;
   background-color: #ecf4ff;
+  padding-bottom: 200px;
   .courses__head {
     width: 80%;
     margin: 0 auto;
@@ -40,5 +41,14 @@
   .cards{
       width: 80%;
       margin: 0 auto;
+      .cardin{
+        background-color: #fff;
+        width: 368px;
+        .card__active{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+      }
   }
 }
