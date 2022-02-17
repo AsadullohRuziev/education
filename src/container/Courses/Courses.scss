@@ -49,6 +49,11 @@
           justify-content: space-around;
           align-items: center;
         }
+        .card__price{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
       }
   }
 }
