@@ -38,49 +38,62 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 128px;
     .mentor__card {
       background-color: #ffffff;
       box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.08);
       border-radius: 6px;
       width: 30%;
+      position: relative;
+      z-index: 1;
       img {
         width: 100%;
+      }
+      .top__left {
+        position: absolute;
+        width: 65px;
+        height: 62px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background-color: #086cf9;
+        border-radius: 6px 0px 0px 0px;
+        p {
+          /* Font Style/Tittle/3 */
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px;
+          color: #ffffff;
+          padding: 8px 12px;
+          text-align: center;
+        }
       }
       .mentor__content {
         width: 80%;
         margin: 0 auto;
-        h3 {
-          /* Font Style/Tittle/1 */
-
+        h4 {
+          width: 70%;
           font-family: DM Sans;
           font-style: normal;
-          font-weight: bold;
-          font-size: 24px;
-          line-height: 31px;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 26px;
+          margin-top: 24px;
 
           color: #222222;
-        }
-        h6 {
-          /* Font Style/Body/2 */
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 155%;
-          /* identical to box height, or 25px */
-
-          color: #555555;
         }
         .mentor__status {
           display: flex;
           justify-content: space-between;
           align-items: center;
+
           .user {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 24px;
             margin-bottom: 36px;
             .userBi {
               font-size: 20px;
@@ -93,7 +106,7 @@
               font-family: DM Sans;
               font-style: normal;
               font-weight: normal;
-              font-size: 16px;
+              font-size: 14px;
               line-height: 155%;
               /* identical to box height, or 22px */
 
@@ -101,9 +114,8 @@
             }
             .yulduz {
               margin-left: 20px;
-              color: #086CF9;
+              color: #086cf9;
               margin-right: 6px;
-
             }
           }
           p {

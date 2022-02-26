@@ -1,0 +1,165 @@
+.courses {
+    width: 100%;
+    background-color: #ecf4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .courses__head {
+      width: 80%;
+      margin: 0 auto;
+      h1 {
+        text-align: center;
+        /* Font Style/Headline/2 */
+        padding-top: 60px;
+  
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 62px;
+  
+        color: #000000;
+      }
+      p {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        /* Font Style/Body/2 */
+        padding-top: 12px;
+  
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 155%;
+        /* or 25px */
+  
+        text-align: center;
+  
+        color: #555555;
+        padding-bottom: 48px;
+      }
+    }
+    .cards {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      .cardin {
+        background-color: #fff;
+        width: 30%;
+        margin: 30px 24px;
+        .teacher {
+          width: 90%;
+          margin: 18px;
+        }
+        .card__active {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 10px;
+          p {
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 155%;
+            /* or 22px */
+  
+            color: #555555;
+          }
+          .user {
+            border: 0.6px solid #c8c8c8;
+            border-radius: 50%;
+            padding: 3px;
+            font-size: 30px;
+            color: #086cf9;
+          }
+          .koz {
+            border: 0.6px solid #c8c8c8;
+            border-radius: 50%;
+            padding: 5px;
+            font-size: 30px;
+            color: #086cf9;
+          }
+          .yulduz {
+            border: 0.6px solid #c8c8c8;
+            border-radius: 50%;
+            padding: 3px;
+            font-size: 30px;
+            color: #086cf9;
+          }
+        }
+        .line {
+          border: 0.5px solid #e9e8e8;
+          width: 90%;
+          margin: 0 auto;
+        }
+        .card__price {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          margin: 20px auto;
+          p {
+            /* Font Style/Tittle/1 */
+  
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 31px;
+  
+            color: #333333;
+          }
+          .price {
+            /* Font Style/Tittle/1 */
+  
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 31px;
+  
+            color: #086cf9;
+          }
+        }
+        .card__text {
+          /* Font Style/Body/3 */
+  
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 155%;
+          /* or 22px */
+  
+          color: #555555;
+          margin: 18px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+    .btnViewAll {
+      background: #086cf9;
+      border-radius: 6px; /* Font Style/Button/1 */
+  
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+  
+      color: #ffffff;
+      padding: 16px 32px;
+      border: none;
+      text-align: center;
+      margin: 48px 0;
+      &:hover {
+        background: #1e79f8de;
+      }
+    }
+  }
+  

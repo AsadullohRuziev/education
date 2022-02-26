@@ -6,6 +6,9 @@ import Courses from './container/Courses/Courses';
 import FindCourse from './container/FindCourse/FindCourse';
 import Mentor from './container/Mentor/Mentor';
 import Work from './container/Work/Work';
+import Event from './container/Event/Event';
+import Status from './container/Status/Status';
+import Blog from './container/Blog/Blog';
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
       <Work/>
       <Courses/>
       <Mentor/>
-      {/* <Footer/> */}
+      <Event/>
+      <Status/> 
+      <Blog/>
+      <Footer/>
     </div>
   );
 }

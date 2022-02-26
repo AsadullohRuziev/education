@@ -12,6 +12,8 @@ import touch from "../assets/icons/choices 1.svg";
 import settings from "../assets/icons/technical-support 1.svg";
 import card from "../assets/images/card1.png";
 import doira from "../assets/images/card1-circle.png";
+import mentor from "../assets/images/mentor.png"
+import event from "../assets/images/event.png"
 
 export default {
   courses,
@@ -28,4 +30,6 @@ export default {
   settings,
   card,
   doira,
+  mentor,
+  event,
 };
