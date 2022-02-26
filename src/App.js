@@ -9,6 +9,7 @@ import Work from './container/Work/Work';
 import Event from './container/Event/Event';
 import Status from './container/Status/Status';
 import Blog from './container/Blog/Blog';
+import Students from './container/Students/Students';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Event/>
       <Status/> 
       <Blog/>
+      <Students/>
       <Footer/>
     </div>
   );
