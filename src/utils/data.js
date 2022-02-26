@@ -14,6 +14,7 @@ import card from "../assets/images/card1.png";
 import doira from "../assets/images/card1-circle.png";
 import mentor from "../assets/images/mentor.png"
 import event from "../assets/images/event.png"
+import blog from "../assets/images/blog.png"
 
 export default {
   courses,
@@ -32,4 +33,5 @@ export default {
   doira,
   mentor,
   event,
+  blog,
 };

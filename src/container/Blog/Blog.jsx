@@ -3,15 +3,13 @@ import "./Blog.scss";
 import data from "../../utils/data";
 import { BiUser } from "react-icons/bi";
 import { BsEye } from "react-icons/bs";
-import {AiOutlineStar} from 'react-icons/ai'
-
-
+import { AiOutlineStar } from "react-icons/ai";
 
 const Blog = () => {
   return (
-    <div className="courses">
-      <div className="courses__head">
-        <h1>Our All The Online Courses</h1>
+    <div className="blog">
+      <div className="blog__head">
+        <h1>Our Latest Blog</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat
           mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur
@@ -19,116 +17,44 @@ const Blog = () => {
         </p>
       </div>
       <div className="cards">
-        <div className="cardin">
-          <img className="teacher" src={data.card} alt="card" />
+        <div className="card__in__card">
+          <img className="teacher" src={data.blog} alt="card" />
           <div className="card__active">
-            <BiUser className="user" />
-            <p>5.8k</p>
-            <BsEye className="koz"/>
-            <p>69k</p>
-            <AiOutlineStar className="yulduz"/>
-            <p>4.5</p>
-            <img src={data.doira} alt="" />
+            <h4>Product Marketing Creative Camping Brand Image</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet,
+              vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida
+              massa.
+            </p>
+            <a href="#">Read more...</a>
           </div>
-          <div className="line"/>
-          <div className="card__price">
-              <p>Development</p>
-              <span className="price">$150</span>
-          </div>
-          <p className="card__text">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
         </div>
-        <div className="cardin">
-          <img className="teacher" src={data.card} alt="card" />
+        <div className="card__in__card">
+          <img className="teacher" src={data.blog} alt="card" />
           <div className="card__active">
-            <BiUser className="user" />
-            <p>5.8k</p>
-            <BsEye className="koz"/>
-            <p>69k</p>
-            <AiOutlineStar className="yulduz"/>
-            <p>4.5</p>
-            <img src={data.doira} alt="" />
+            <h4>Product Marketing Creative Camping Brand Image</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet,
+              vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida
+              massa.
+            </p>
+            <a href="#">Read more...</a>
           </div>
-          <div className="line"/>
-          <div className="card__price">
-              <p>Development</p>
-              <span className="price">$150</span>
-          </div>
-          <p className="card__text">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
         </div>
-        <div className="cardin">
-          <img className="teacher" src={data.card} alt="card" />
+        <div className="card__in__card">
+          <img className="teacher" src={data.blog} alt="card" />
           <div className="card__active">
-            <BiUser className="user" />
-            <p>5.8k</p>
-            <BsEye className="koz"/>
-            <p>69k</p>
-            <AiOutlineStar className="yulduz"/>
-            <p>4.5</p>
-            <img src={data.doira} alt="" />
+            <h4>Product Marketing Creative Camping Brand Image</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet,
+              vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida
+              massa.
+            </p>
+            <a href="#">Read more...</a>
           </div>
-          <div className="line"/>
-          <div className="card__price">
-              <p>Development</p>
-              <span className="price">$150</span>
-          </div>
-          <p className="card__text">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
-        </div>
-        <div className="cardin">
-          <img className="teacher" src={data.card} alt="card" />
-          <div className="card__active">
-            <BiUser className="user" />
-            <p>5.8k</p>
-            <BsEye className="koz"/>
-            <p>69k</p>
-            <AiOutlineStar className="yulduz"/>
-            <p>4.5</p>
-            <img src={data.doira} alt="" />
-          </div>
-          <div className="line"/>
-          <div className="card__price">
-              <p>Development</p>
-              <span className="price">$150</span>
-          </div>
-          <p className="card__text">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
-        </div>
-        <div className="cardin">
-          <img className="teacher" src={data.card} alt="card" />
-          <div className="card__active">
-            <BiUser className="user" />
-            <p>5.8k</p>
-            <BsEye className="koz"/>
-            <p>69k</p>
-            <AiOutlineStar className="yulduz"/>
-            <p>4.5</p>
-            <img src={data.doira} alt="" />
-          </div>
-          <div className="line"/>
-          <div className="card__price">
-              <p>Development</p>
-              <span className="price">$150</span>
-          </div>
-          <p className="card__text">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
-        </div>
-        <div className="cardin">
-          <img className="teacher" src={data.card} alt="card" />
-          <div className="card__active">
-            <BiUser className="user" />
-            <p>5.8k</p>
-            <BsEye className="koz"/>
-            <p>69k</p>
-            <AiOutlineStar className="yulduz"/>
-            <p>4.5</p>
-            <img src={data.doira} alt="" />
-          </div>
-          <div className="line"/>
-          <div className="card__price">
-              <p>Development</p>
-              <span className="price">$150</span>
-          </div>
-          <p className="card__text">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
         </div>
       </div>
-      <button className="btnViewAll">View All Course</button>
+      <button className="btnViewAll">View All</button>
     </div>
   );
 };
