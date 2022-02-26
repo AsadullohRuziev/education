@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Courses from './container/Courses/Courses';
 import FindCourse from './container/FindCourse/FindCourse';
+import Mentor from './container/Mentor/Mentor';
 import Work from './container/Work/Work';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <FindCourse/>
       <Work/>
       <Courses/>
+      <Mentor/>
       {/* <Footer/> */}
     </div>
   );
