@@ -1,5 +1,7 @@
 .students {
   background-color: #efefef;
+  width: 100%;
+  padding-bottom: 128px;
   .students__head {
     width: 100%;
     h1 {
@@ -33,18 +35,80 @@
       color: #555555;
     }
   }
-  .slider{
-      margin-top: 42px;
-      height: 100px;
-      .slider__card{
-        width: 25%;
-        margin: 0 auto;
-        .slider__card_in{
-          display: flex;
-          .slider__content{
-            margin-left: 16px;
-          }
+  .slider {
+    margin-top: 42px;
+    padding-bottom: 128px;
+    display: flex;
+    .slider__card {
+      width: 25%;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px 24px 38px 15px;
+      box-shadow: 0px 13px 45px rgba(0, 0, 0, 0.08);
+      border-radius: 6px;
+      p {
+        /* Font Style/Body/2 */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 155%;
+        /* or 25px */
+
+        color: #555555;
+      }
+      .slider__card_in {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        .slider__content {
+          margin-left: 16px;
         }
       }
+    }
+  }
+  .input__section {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #086cf9;
+    border-radius: 6px;
+    padding-bottom: 64px;
+    .inputDiv {
+      background-color: #ffffff;
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+
+      input {
+        border-radius: 4px;
+        width: 80%;
+        height: 64px;
+        outline: none;
+        border: none; 
+        padding-left: 20px;
+        /* Font Style/Body/3 */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 155%;
+        /* identical to box height, or 22px */
+
+        color: #555555;
+      }
+      .subscribe {
+        background-color: #086cf9;
+        color: #ffffff;
+        padding: 12px 20px;
+        border-radius: 4px;
+        border: none;
+        margin-right: 8px;
+      }
+    }
   }
 }
