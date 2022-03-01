@@ -36,5 +36,15 @@
   .slider{
       margin-top: 42px;
       height: 100px;
+      .slider__card{
+        width: 25%;
+        margin: 0 auto;
+        .slider__card_in{
+          display: flex;
+          .slider__content{
+            margin-left: 16px;
+          }
+        }
+      }
   }
 }
