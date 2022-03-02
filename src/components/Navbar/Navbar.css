@@ -6,6 +6,8 @@
   align-items: center;
   height: 48px;
   margin-top: 40px;
+  /* position: fixed; */
+  background-color: #fff;
 }
 .navbar__logo a {
   text-decoration: none;

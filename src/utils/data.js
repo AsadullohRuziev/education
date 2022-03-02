@@ -12,10 +12,10 @@ import touch from "../assets/icons/choices 1.svg";
 import settings from "../assets/icons/technical-support 1.svg";
 import card from "../assets/images/card1.png";
 import doira from "../assets/images/card1-circle.png";
-import mentor from "../assets/images/mentor.png"
-import event from "../assets/images/event.png"
-import blog from "../assets/images/blog.png"
-import slider from '../assets/images/slider.png'
+import mentor from "../assets/images/mentor.png";
+import event from "../assets/images/event.png";
+import blog from "../assets/images/blog.png";
+import slider from "../assets/images/slider.png";
 
 export default {
   courses,
