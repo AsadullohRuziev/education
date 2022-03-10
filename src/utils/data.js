@@ -37,3 +37,9 @@ export default {
   blog,
   slider,
 };
+
+
+
+let data = [
+  {}
+]

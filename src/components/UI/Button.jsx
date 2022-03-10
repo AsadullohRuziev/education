@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = ({ title }) => {
-  return <ButtonTag>{title}</ButtonTag>;
+  return <Btn>{title}</Btn>;
 };
 
 export default Button;
 
-const ButtonTag = styled.button`
+const Btn = styled.button`
   background: #086cf9;
   border-radius: 4px;
   font-family: DM Sans;
