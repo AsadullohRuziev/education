@@ -1,25 +1,30 @@
-import React from 'react';
-import './Navbar.css'
-
+import React from "react";
+import { navbar } from "../../utils/navbar";
+import "./Navbar.css";
+import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 
 const Navbar = () => {
-  return(
-      <nav className='navbar'>
-        <div className='navbar__logo'>
-            <a href="#/">Education</a>
-        </div>
-        <ul className='links'>
-            <li className='link'><a href="#home">Home</a></li>
-            <li className='link'><a href="#courses">Courses</a></li>
-            <li className='link'><a href="#page">Page</a></li>
-            <li className='link'><a href="#blog">Blog</a></li>
-            <li className='link'><a href="#contact">Contact</a></li>
-        </ul>
-        <div>
-            <button className='btn btn__singin'>Singin</button>
-            <button className='btn btn__singup'>Sing Up</button>
-        </div>
-      </nav>
+  return (
+    <nav className="navbar">
+      <div className="navbar__logo">
+        <a href="/">Education</a>
+      </div>
+
+      <ul className="links">
+        {navbar.map((value) => (
+          <li className="link">
+            <NavLink key={value.id} to={value.path}>
+              {value.title}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+      <div>
+        <button className="btn btn__singin">Singin</button>
+        <button className="btn btn__singup">Sing Up</button>
+      </div>
+    </nav>
   );
 };
 

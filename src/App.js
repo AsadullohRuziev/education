@@ -10,22 +10,21 @@ import Event from './container/Event/Event';
 import Status from './container/Status/Status';
 import Blog from './container/Blog/Blog';
 import Students from './container/Students/Students';
+import Home from './components/Home/Home';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { navbar } from './utils/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Header/>
-      <FindCourse/>
-      <Work/>
-      <Courses/>
-      <Mentor/>
-      <Event/>
-      <Status/> 
-      <Blog/>
-      <Students/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route>
+        {navbar.map(({path, id, Element}) => (
+        <Route key={id} path={path} element={<Element/>}/>
+        ))}
+      </Route>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
