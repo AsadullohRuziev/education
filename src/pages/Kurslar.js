@@ -9,8 +9,6 @@ const Kurslar = () => {
     <>
         <Navbar/>
         <Courses/>
-        <Mentor/>
-        <Event/>
         <Footer/>
     </>
   )
