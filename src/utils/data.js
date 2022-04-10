@@ -17,7 +17,7 @@ import event from "../assets/images/event.png";
 import blog from "../assets/images/blog.png";
 import slider from "../assets/images/slider.png";
 
-export default  {
+const data = {
   courses,
   expert,
   succes,
@@ -37,3 +37,5 @@ export default  {
   blog,
   slider,
 };
+
+export default data

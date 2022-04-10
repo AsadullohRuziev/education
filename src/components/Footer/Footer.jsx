@@ -18,22 +18,22 @@ const Footer = () => {
         <div className="two">
           <h2>Feature links</h2>
           <ul className="link">
-            <li><span>❭</span> <a href="#" target="#">About us</a></li>
-            <li><span>❭</span><a href="#" target="#">Graduation</a></li>
-            <li><span>❭</span><a href="#" target="#">Scholarship</a></li>
-            <li><span>❭</span><a href="#" target="#">Admissions</a></li>
-            <li><span>❭</span><a href="#" target="#">International</a></li>
-            <li><span>❭</span><a href="#" target="#">Events</a></li>
+            <li><span>❭</span> <a href="#/" target="#">About us</a></li>
+            <li><span>❭</span><a href="#/" target="#">Graduation</a></li>
+            <li><span>❭</span><a href="#/" target="#">Scholarship</a></li>
+            <li><span>❭</span><a href="#/" target="#">Admissions</a></li>
+            <li><span>❭</span><a href="#/" target="#">International</a></li>
+            <li><span>❭</span><a href="#/" target="#">Events</a></li>
           </ul>
         </div>
         <div className="two">
           <h2>Support</h2>
           <ul className="link">
-            <li><span>❭</span><a href="#">Language</a></li>
-            <li><span>❭</span><a href="#">WordPress</a></li>
-            <li><span>❭</span><a href="#">Privacy</a></li>
-            <li><span>❭</span><a href="#">FAQs</a></li>
-            <li><span>❭</span><a href="#">Support</a></li>
+            <li><span>❭</span><a href="#/">Language</a></li>
+            <li><span>❭</span><a href="#/">WordPress</a></li>
+            <li><span>❭</span><a href="#/">Privacy</a></li>
+            <li><span>❭</span><a href="#/">FAQs</a></li>
+            <li><span>❭</span><a href="#/">Support</a></li>
           </ul>
         </div>
         <div className="four">
