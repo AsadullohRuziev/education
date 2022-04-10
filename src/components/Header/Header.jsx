@@ -1,7 +1,6 @@
 import React from "react";
 import data from "../../utils/data";
 import Button from "../UI/Button";
-import Text from "../UI/Text";
 import "./Header.scss";
 import styled from "styled-components";
 

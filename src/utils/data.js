@@ -17,7 +17,7 @@ import event from "../assets/images/event.png";
 import blog from "../assets/images/blog.png";
 import slider from "../assets/images/slider.png";
 
-export default {
+export default  {
   courses,
   expert,
   succes,
@@ -37,9 +37,3 @@ export default {
   blog,
   slider,
 };
-
-
-
-let data = [
-  {}
-]

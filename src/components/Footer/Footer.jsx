@@ -18,12 +18,12 @@ const Footer = () => {
         <div className="two">
           <h2>Feature links</h2>
           <ul className="link">
-            <li><span>❭</span> <a href="#">About us</a></li>
-            <li><span>❭</span><a href="#">Graduation</a></li>
-            <li><span>❭</span><a href="#">Scholarship</a></li>
-            <li><span>❭</span><a href="#">Admissions</a></li>
-            <li><span>❭</span><a href="#">International</a></li>
-            <li><span>❭</span><a href="#">Events</a></li>
+            <li><span>❭</span> <a href="#" target="#">About us</a></li>
+            <li><span>❭</span><a href="#" target="#">Graduation</a></li>
+            <li><span>❭</span><a href="#" target="#">Scholarship</a></li>
+            <li><span>❭</span><a href="#" target="#">Admissions</a></li>
+            <li><span>❭</span><a href="#" target="#">International</a></li>
+            <li><span>❭</span><a href="#" target="#">Events</a></li>
           </ul>
         </div>
         <div className="two">
