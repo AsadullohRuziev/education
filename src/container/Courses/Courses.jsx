@@ -1,11 +1,33 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 // import "./Courses.scss";
 import { BiUser } from "react-icons/bi";
 import { BsEye } from "react-icons/bs";
 import { AiOutlineStar } from "react-icons/ai";
 import coursesData from "../../data/data.json";
 
+
+const postsPerPage = 3;
+let arrayForHoldingPosts = [];
+
 const Courses = () => {
+  const [postsToShow, setPostsToShow] = useState([]);
+  const [next, setNext] = useState(3);
+
+  const loopWithSlice = (start, end) => {
+    const slicedPosts = coursesData.courses.slice(start, end);
+    arrayForHoldingPosts = [...arrayForHoldingPosts, ...slicedPosts];
+    setPostsToShow(arrayForHoldingPosts);
+  };
+
+  
+  useEffect(() => {
+    loopWithSlice(0, postsPerPage);
+  }, []);
+
+  const handleShowMorePosts = () => {
+    loopWithSlice(next, next + postsPerPage);
+    setNext(next + postsPerPage);
+  };
   return (
     <div className="courses  flex flex-col items-center justify-center bg-blue-50">
       <div className="courses__head">
@@ -19,7 +41,7 @@ const Courses = () => {
         </p>
       </div>
       <div className="cards w-full flex flex-row items-center justify-center  flex-wrap m-auto">
-        {coursesData.courses.map((course) => {
+        {postsToShow.map((course) => {
           return (
             <div
               className="cardin bg-white hover:shadow-2xl w-3/12 my-7 mx-6"
@@ -65,7 +87,7 @@ const Courses = () => {
           );
         })}
       </div>
-      <button className="btnViewAll bg-blue-600 hover:bg-blue-400 font-sans not-italic font-normal text-base leading-6 text-white py-4 px-8 border-none text-center my-12 rounded-md">
+      <button onClick={handleShowMorePosts} className="btnViewAll bg-blue-600 hover:bg-blue-400 font-sans not-italic font-normal text-base leading-6 text-white py-4 px-8 border-none text-center my-12 rounded-md">
         View All Course
       </button>
     </div>
