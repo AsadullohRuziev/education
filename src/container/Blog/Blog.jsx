@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Blog.scss";
-import data from "../../utils/data";
 import malumot from "../../data/data.json"
+
 
 
 const Blog = () => {

@@ -2,7 +2,6 @@ import React from "react";
 import { navbar } from "../../utils/navbar";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
 
 const Navbar = () => {
   return (
