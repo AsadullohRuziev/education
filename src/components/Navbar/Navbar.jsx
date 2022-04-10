@@ -11,9 +11,9 @@ const Navbar = () => {
       </div>
 
       <ul className="links">
-        {navbar.map((value) => (
-          <li className="link">
-            <NavLink key={value.id} to={value.path}>
+        {navbar.map((value, index) => (
+          <li className="link" key={value.id} >
+            <NavLink to={value.path}>
               {value.title}
             </NavLink>
           </li>
